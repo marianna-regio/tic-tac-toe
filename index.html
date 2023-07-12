@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang=""><pt-BR></pt-BR>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <main class="main-section">
+        <section class="title">
+            <h1>Tic-Tac-Toe</h1>
+            <hr>
+        </section>
+        <section class="display">
+            <h4>Placar: <span id="placar1">0</span> x <span id="placar2">0</span></h4>
+            <br>
+            <label for="player1">X </label>
+            <input type="text" id="player1" placeholder="Jogador 1">
+            <label for="player2">O </label>
+            <input type="text" id="player2" placeholder="Jogador 2">
+            <button id="start">Começar!</button>
+        </section>
+        <section id="game">
+                <button class="button cursor-pointer" data-value="0"></button>
+                <button class="button cursor-pointer" data-value="1"></button>
+                <button class="button cursor-pointer" data-value="2"></button>
+                <button class="button cursor-pointer" data-value="3"></button>
+                <button class="button cursor-pointer" data-value="4"></button>
+                <button class="button cursor-pointer" data-value="5"></button>    
+                <button class="button cursor-pointer" data-value="6"></button>
+                <button class="button cursor-pointer" data-value="7"></button>
+                <button class="button cursor-pointer" data-value="8"></button>    
+        </section>
+        <h3>Jogador da vez: <span id="turnPlayer"></span> </h3>
+    </main>
+</body>
+</html>
